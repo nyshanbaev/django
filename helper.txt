@@ -1,0 +1,10 @@
+                 create virtual == python3 -m venv venv
+               activate virtual == source venv/bin/activate
+        create requirements.txt == [django, djangorestframework, psycopg2-binary]
+              install libraries == pip install -r requirements.txt
+          create great project  == django-admin startproject name_project .
+  ./manage.py startapp name_app == create second project
+     ./manage.py makemigrations == create makemigrations
+            ./manage.py migrate == activate migrations
+          ./manage.py runserver == activate server
+    ./manage.py createsuperuser == create user with rights like admin
